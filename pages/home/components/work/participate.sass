@@ -83,11 +83,13 @@
         font-size: 22px
 
   .roadmap
+    padding: 60px 0
     position: relative
     overflow: hidden
     width: 100%
 
     .roadmap-item
+      position: relative
       display: flex
       flex: 1
       width: 100%
@@ -133,6 +135,13 @@
           right: 0
           transform: rotate(-45deg)
 
+      .roadmap-icon-left
+        border-top-color: transparent
+        border-right-color: transparent
+        border-bottom-color: $violet
+        border-left-color: $violet
+
+
       .roadmap-text
         position: relative
         background-color: $violet
@@ -141,6 +150,7 @@
         z-index: 1
         border-radius: 5px
         max-width: 388px
+        width: 100%
 
         p
 
@@ -166,6 +176,32 @@
           left: -20%
           z-index: -1
           transform: translateY(-50%)
+
+        &:after
+          content: ""
+          width: 20%
+          height: 15px
+          background: $violet
+          position: absolute
+          top: 50%
+          right: -20%
+          z-index: -1
+          transform: translateY(-50%)
+
+    .rmit
+      margin-top: -19px
+
+    .rmitb
+      margin-top: -57px
+
+    .rmitb2
+      margin-top: -43px
+
+    .rmitb3
+      margin-top: -15px
+
+    .rmitb4
+      margin-top: -11px
 
 
 

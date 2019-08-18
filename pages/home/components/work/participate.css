@@ -80,11 +80,13 @@
   font-size: 22px;
 }
 .work .roadmap {
+  padding: 60px 0;
   position: relative;
   overflow: hidden;
   width: 100%;
 }
 .work .roadmap .roadmap-item {
+  position: relative;
   display: flex;
   flex: 1;
   width: 100%;
@@ -130,6 +132,12 @@
   right: 0;
   transform: rotate(-45deg);
 }
+.work .roadmap .roadmap-item .roadmap-icon-left {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #3d3dce;
+  border-left-color: #3d3dce;
+}
 .work .roadmap .roadmap-item .roadmap-text {
   position: relative;
   background-color: #3d3dce;
@@ -138,6 +146,7 @@
   z-index: 1;
   border-radius: 5px;
   max-width: 388px;
+  width: 100%;
 }
 .work .roadmap .roadmap-item .roadmap-text p:first-child {
   font-size: 20px;
@@ -161,6 +170,32 @@
   left: -20%;
   z-index: -1;
   transform: translateY(-50%);
+}
+.work .roadmap .roadmap-item .roadmap-text:after {
+  content: "";
+  width: 20%;
+  height: 15px;
+  background: #3d3dce;
+  position: absolute;
+  top: 50%;
+  right: -20%;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+.work .roadmap .rmit {
+  margin-top: -19px;
+}
+.work .roadmap .rmitb {
+  margin-top: -57px;
+}
+.work .roadmap .rmitb2 {
+  margin-top: -43px;
+}
+.work .roadmap .rmitb3 {
+  margin-top: -15px;
+}
+.work .roadmap .rmitb4 {
+  margin-top: -11px;
 }
 
 @media only screen and (min-width: 576px) {
