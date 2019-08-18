@@ -48,7 +48,6 @@
 }
 .video-slider .slick-slide:hover img, .sentence-video .slick-slide:hover img {
   transition: 0.2s;
-  border: 2px solid white;
   -webkit-box-shadow: 0 0 10px rgba(165, 165, 165, 0.2);
   -ms-box-shadow: 0 0 10px rgba(165, 165, 165, 0.2);
   -moz-box-shadow: 0 0 10px rgba(165, 165, 165, 0.2);
