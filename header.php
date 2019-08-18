@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/fonts/TTNorms/stylesheet.css">
 
     <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/reset.css">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/sub-style.css?v=21.3">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/loader.css?v=21.3">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/main.css?v=21.3">
-    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/pages/home/home.css?v=21.3">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/sub-style.css?v=21.5">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/loader.css?v=21.5">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style/main.css?v=21.5">
+    <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/pages/home/home.css?v=21.5">
 </head>
 <body>
 

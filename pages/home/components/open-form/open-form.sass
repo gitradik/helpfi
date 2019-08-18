@@ -22,19 +22,57 @@
     z-index: 2
 
   .t
-    padding-bottom: 30px
+    padding-bottom: 0
 
     h2
+      margin-bottom: 0
       color: white
 
   form
 
     .t
+      text-align: center
 
-      h5
-        color: $color2
-        line-height: 30px
-        text-shadow: 1px 1px 1px rgba(0,0,0,.7)
+      h3
+        color: white
+        margin-bottom: 15px
+
+      h4
+        color: white
+
+    input
+      border-radius: 25px
+
+    button
+      border-radius: 25px
+      padding: 15px 0
+      max-width: 250px
+      font-weight: 600
+      border: 0
+      text-transform: uppercase
+      -webkit-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      -ms-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      -moz-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      color: #fff!important
+      transition: .2s
+      background: $violet
+
+      &:hover
+        transition: .2s
+        background-color: $back_order_hover
+
+  .of-t
+    background-color: $violet
+    border-radius: 14px
+    padding: 40px
+    -webkit-box-shadow: 0 0 10px rgba(165,165,165,0.2)
+    -ms-box-shadow: 0 0 10px rgba(165,165,165,0.2)
+    -moz-box-shadow: 0 0 10px rgba(165,165,165,0.2)
+    box-shadow: 0 0 10px rgba(165,165,165,0.2)
+
+    h2
+      text-align: center
 
 
 @import "open-form-media"

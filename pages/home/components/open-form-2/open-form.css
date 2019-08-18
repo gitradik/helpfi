@@ -1,9 +1,22 @@
 .open-form-2 {
-  padding: 60px 0;
+  padding: 120px 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  background-color: white;
+}
+.open-form-2 .t {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.open-form-2 .t p {
+  display: flex;
+  align-items: center;
+}
+.open-form-2 .t p i {
+  margin-right: 10px;
+  color: #3d3dce;
 }
 .open-form-2 .bg {
   background-color: rgba(0, 0, 0, 0.52);
@@ -21,16 +34,50 @@
   position: relative;
   z-index: 2;
 }
-.open-form-2 .t {
-  padding-bottom: 30px;
+.open-form-2 form .t {
+  text-align: left;
 }
-.open-form-2 .t h2 {
-  color: #e7d885;
+.open-form-2 form .t h3 {
+  margin-bottom: 30px;
+}
+.open-form-2 form .t p {
+  margin-bottom: 0;
 }
 .open-form-2 form .t h5 {
   color: white;
   line-height: 30px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.open-form-2 form .of-or-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.open-form-2 form .of-or-btns input {
+  margin: 0;
+  border-radius: 25px;
+}
+.open-form-2 form button {
+  border-radius: 25px;
+  padding: 15px 0;
+  max-width: 250px;
+  font-weight: 600;
+  border: 0;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -ms-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -moz-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  color: #fff !important;
+  transition: 0.2s;
+  background: #3d3dce;
+}
+.open-form-2 form button:hover {
+  transition: 0.2s;
+  background-color: #333333;
+}
+.open-form-2 .of-img {
+  animation: move3 4.5s linear infinite;
 }
 
 @media only screen and (min-width: 992px) {
@@ -40,9 +87,6 @@
   .open-form .check-list .check-item p {
     font-size: 20px;
     font-weight: 400;
-  }
-  .open-form .t {
-    padding-bottom: 60px;
   }
 }
 @media only screen and (max-width: 1199px) {

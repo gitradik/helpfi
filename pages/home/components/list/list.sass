@@ -2,16 +2,35 @@
 
 .list
   overflow: hidden
-  padding: 60px 0
+  padding: 120px 0
   background-color: $bg_color
 
   .order
     margin-bottom: 10px
+    display: flex
+    align-items: center
 
     button
-      color: white
-      padding: 15px 25px
-      font-size: 15px
+      border-radius: 25px
+      border: 0
+      text-transform: uppercase
+      -webkit-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      -ms-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      -moz-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+      color: #fff!important
+      transition: .2s
+      background: $violet
+
+      &:hover
+        transition: .2s
+        background-color: $back_order_hover
+
+    p
+      font-size: 18px
+      font-weight: 500
+      border-bottom: 1px solid $violet
+      padding-bottom: 5px
 
   .t
 
@@ -23,58 +42,68 @@
       text-align: center
       font-size: 18px
 
-  .list-list
+    h3
+      text-align: center
 
-    .list-item
+
+
+  .list-img
+    display: flex
+    flex: 1
+    height: 100%
+    background-repeat: no-repeat
+    background-position: center
+    background-size: contain
+
+  .list-item
+    text-align: left
+
+    .t
       text-align: left
-
-      .list-item-body
-        display: flex
-        justify-content: space-between
-        align-items: center
-        margin: 20px 0
-
-        .list-item-desc
-          border: 2px solid white
-          border-radius: 3px
-          box-shadow: 0 0 10px 0 rgba(0,0,0,.15)
-          margin-left: 10px
-
-        .list-slider
-          max-width: 550px
-          width: 100%
-
-        img
-          max-height: 366px
-          height: auto
-          max-width: 550px
-          box-shadow: $box_shadow_hard
-          border-radius: 4px
-
-        p
-          font-size: 18px
-          line-height: 25px
-
-          span
-            font-weight: 700
-            font-size: 22px
-
-
-      h4
-        font-size: 20px
-        font-weight: 900
-        border: 3px solid $color3
-        border-radius: 4px
-        padding: 15px
-        color: black
+      margin-bottom: 30px!important
 
       p
         text-align: left
-        padding: 15px
-        color: black
-        font-weight: 500
-        line-height: 30px
-        font-size: 20px
+
+    .list-item-body
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin: 20px 0
+
+      .list-item-desc
+        border: 2px solid white
+        border-radius: 3px
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.15)
+        margin-left: 10px
+
+      .list-slider
+        max-width: 550px
+        width: 100%
+
+      img
+        max-height: 366px
+        height: auto
+        max-width: 550px
+        box-shadow: $box_shadow_hard
+        border-radius: 4px
+
+      p
+        font-size: 18px
+        line-height: 25px
+
+        span
+          font-weight: 700
+          font-size: 22px
+
+
+    h4
+      font-size: 20px
+      font-weight: 900
+      border: 3px solid $color3
+      border-radius: 4px
+      padding: 15px
+      color: black
 
 
   .list-questions

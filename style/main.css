@@ -32,12 +32,12 @@ body {
   color: black;
 }
 .t h3 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   color: black;
 }
 .t h4 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: black;
 }
@@ -91,6 +91,7 @@ body {
 .order .order-buttons button:first-child {
   transition: 0.2s;
   background-color: white;
+  font-weight: 600;
   color: #4776e6;
 }
 .order .order-buttons button:first-child:hover {

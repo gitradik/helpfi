@@ -3,13 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/participate/participate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/participate/participate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form-media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form-media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +63,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -119,7 +137,8 @@
       <workItem from="1565955151722" duration="8167000" />
       <workItem from="1566037732263" duration="26000" />
       <workItem from="1566113676969" duration="3884000" />
-      <workItem from="1566122892857" duration="5468000" />
+      <workItem from="1566122892857" duration="5520000" />
+      <workItem from="1566130340902" duration="5333000" />
     </task>
     <servers />
   </component>

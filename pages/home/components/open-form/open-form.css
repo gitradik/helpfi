@@ -18,47 +18,64 @@
   z-index: 2;
 }
 .open-form .t {
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 .open-form .t h2 {
+  margin-bottom: 0;
   color: white;
 }
-.open-form form .t h5 {
-  color: #e7d885;
-  line-height: 30px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+.open-form form .t {
+  text-align: center;
+}
+.open-form form .t h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+.open-form form .t h4 {
+  color: white;
+}
+.open-form form input {
+  border-radius: 25px;
+}
+.open-form form button {
+  border-radius: 25px;
+  padding: 15px 0;
+  max-width: 250px;
+  font-weight: 600;
+  border: 0;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -ms-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -moz-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  color: #fff !important;
+  transition: 0.2s;
+  background: #3d3dce;
+}
+.open-form form button:hover {
+  transition: 0.2s;
+  background-color: #333333;
+}
+.open-form .of-t {
+  background-color: #3d3dce;
+  border-radius: 14px;
+  padding: 40px;
+  -webkit-box-shadow: 0 0 10px rgba(165, 165, 165, 0.2);
+  -ms-box-shadow: 0 0 10px rgba(165, 165, 165, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(165, 165, 165, 0.2);
+  box-shadow: 0 0 10px rgba(165, 165, 165, 0.2);
+}
+.open-form .of-t h2 {
+  text-align: center;
 }
 
 @media only screen and (min-width: 992px) {
   .open-form .check-list .check-item img {
     max-width: 40px;
   }
-  .open-form .check-list .check-item p {
-    font-size: 20px;
-    font-weight: 400;
-  }
-  .open-form .t {
-    padding-bottom: 60px;
-  }
-}
-@media only screen and (max-width: 1199px) {
-  .open-form form input, .open-form form button {
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .open-form .check-list .check-item img {
-    max-width: 40px;
-  }
-  .open-form .check-list .check-item p {
-    font-size: 20px;
-  }
-  .open-form form input, .open-form form button {
-    font-size: 16px;
-  }
-  .open-form form .t h5 {
-    max-width: 500px;
-    font-size: 20px;
+
+  .open-form-2 form .of-or-btns input {
+    margin-right: 10px !important;
   }
 }
 

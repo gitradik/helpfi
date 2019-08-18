@@ -1,7 +1,8 @@
 .work {
   overflow: hidden;
-  padding: 60px 0;
-  background-color: #f7f7f7;
+  position: relative;
+  padding: 120px 0;
+  background-color: #F8FAFF;
   display: flex;
   align-items: center;
   background-position: center;
@@ -77,6 +78,89 @@
 }
 .work .t h4 span {
   font-size: 22px;
+}
+.work .roadmap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.work .roadmap .roadmap-item {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.work .roadmap .roadmap-item .roadmap-number {
+  display: block;
+}
+.work .roadmap .roadmap-item .roadmap-icon {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 25px solid transparent;
+  border-top-color: #3d3dce;
+  border-right-color: #3d3dce;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  transform: rotate(45deg);
+}
+.work .roadmap .roadmap-item .roadmap-icon span {
+  display: block;
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(165, 165, 165, 0.2);
+  margin: auto;
+  font-size: 24px;
+  font-weight: 600;
+  color: #7a7bd7;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: rotate(-45deg);
+}
+.work .roadmap .roadmap-item .roadmap-text {
+  position: relative;
+  background-color: #3d3dce;
+  padding: 20px 20px;
+  margin: 50px 0 51px;
+  z-index: 1;
+  border-radius: 5px;
+  max-width: 388px;
+}
+.work .roadmap .roadmap-item .roadmap-text p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+  color: white;
+}
+.work .roadmap .roadmap-item .roadmap-text p:last-child {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 28px;
+}
+.work .roadmap .roadmap-item .roadmap-text:before {
+  content: "";
+  width: 20%;
+  height: 15px;
+  background: #3d3dce;
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  z-index: -1;
+  transform: translateY(-50%);
 }
 
 @media only screen and (min-width: 576px) {
