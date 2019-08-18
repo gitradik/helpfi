@@ -1,0 +1,63 @@
+@import "../../style/data"
+
+.home
+  position: relative
+  overflow: hidden
+  font-family: 'Montserrat', sans-serif
+
+  form
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    .t
+
+      h5
+        color: black
+        line-height: 30px
+
+    input
+      text-align: center
+      display: block
+      width: 100%
+      border-radius: 3px
+      max-width: 350px
+      padding: 15px 10px
+      font-size: 16px
+      font-weight: 400
+      color: black
+      margin-bottom: 15px
+      transition: .2s
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.03)
+      border: 1px solid rgba(0,0,0,.1)
+
+      &::placeholder
+        color: rgba(0,0,0,.7)
+
+      &:hover
+        transition: .2s
+        border-color: $yellow_light
+
+      &:focus
+        transition: .2s
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+
+    button
+      max-width: 200px
+      border-radius: 3px
+      padding: 15px 0
+      border: 1px solid rgba(0,0,0,.1)
+      font-size: 16px
+      font-weight: 400
+      width: 100%
+      transition: .2s
+      color: white
+      background-color: $yellow_light
+
+      &:hover
+        transition: .2s
+        color: white
+        background-color: $yellow_hover
+
+@import "home-media"

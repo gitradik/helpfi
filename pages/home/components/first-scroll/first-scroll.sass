@@ -1,0 +1,183 @@
+@import "../../../../style/data"
+
+.first-scroll
+  position: relative
+  overflow: hidden
+  background-repeat: no-repeat
+  background-position: center bottom
+  -webkit-background-size: cover
+  -ms-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  background-color: $bg_color
+  display: flex
+  align-items: center
+  padding-top: 100px
+  min-height: 100vh
+  width: 100%
+
+  .fs-img
+    animation: move3 4.5s linear infinite
+
+  .circle1
+    position: absolute
+    z-index: 0
+    left: 40px
+    top: 150px
+    width: 100px
+    height: 100px
+    border-radius: 50%
+    background: rgba(255,255,255,0.1)
+    animation: move1 3.5s linear infinite
+
+  .circle2
+    position: absolute
+    z-index: 0
+    left: 30%
+    top: 60%
+    width: 150px
+    height: 150px
+    border-radius: 50%
+    background: rgba(255,255,255,0.1)
+    animation: move1 3.5s linear infinite
+
+  .circle3
+    position: absolute
+    z-index: 0
+    right: 140px
+    top: 60%
+    width: 130px
+    height: 130px
+    border-radius: 50%
+    background: rgba(255,255,255,0.1)
+    animation: move2 3.5s linear infinite
+
+  .circle4
+    position: absolute
+    z-index: 0
+    left: 45%
+    top: 150px
+    width: 160px
+    height: 160px
+    border-radius: 50%
+    background: rgba(255,255,255,0.1)
+    animation: move2 3.5s linear infinite
+
+  .ct
+    position: relative
+    z-index: 2
+
+  .order
+    max-width: 700px
+    position: relative
+    text-align: left
+    z-index: 2
+    margin-top: 30px
+
+    h3
+      color: white
+      font-weight: 300
+      margin-bottom: 30px
+
+    img
+      height: auto
+      max-width: 80px
+      margin: 0 auto
+      margin-bottom: 30px
+      border-radius: 100%
+      box-shadow: 0 0 15px 0 rgba(0,0,0,.25)
+
+    .arrow-design
+      position: absolute
+      top: 0
+      left: auto
+      z-index: 0
+      bottom: 0
+      right: 20%
+      width: 200px
+      background-color: rgba(231, 216, 133, 0.15)
+      clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%)
+
+    .ard1
+      right: 25%
+
+    .ard2
+      right: 50%
+
+    .ard3
+      right: 75%
+
+
+  .t
+    max-width: 700px
+    position: relative
+    z-index: 2
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    text-align: left
+
+    h1
+
+    h2
+      color: #46C8F6
+
+    hr
+
+    p
+
+
+  .t-name
+    display: flex
+
+    h4
+      color: white
+      font-size: 32px
+      border-radius: 2px
+      font-weight: 500
+      background-color: rgba(0, 177, 86, 0.3)
+      box-shadow: 0 0 10px 0 rgba(255,255,255,.07)
+      display: inline-block
+      padding: 15px
+      margin-bottom: 5px
+
+    h5
+      color: white
+      font-size: 26px
+      font-weight: 400
+
+  .t-sub
+    width: auto
+    padding: 15px!important
+    box-shadow: none
+    border-radius: 2px
+    border: 0
+
+    h3
+      color: white
+      font-weight: 700
+      text-shadow: 1px 1px 1px rgba(0,0,0,.6)
+
+      span
+        color: white
+        text-shadow: none
+        font-weight: 900
+
+    p
+      color: white
+      margin-bottom: 0
+
+  .bg
+    background-color: transparent
+
+.cos
+  position: absolute
+  bottom: 1.5%
+  left: 50%
+  transform: translateX(-50%)
+  z-index: 4
+
+
+
+
+@import "first-scroll-media"

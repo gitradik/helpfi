@@ -1,0 +1,102 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 998;
+  transition: 0.2s;
+  background-color: transparent;
+}
+.navbar .navbar-brand {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand img {
+  margin-right: 10px;
+  height: auto;
+  max-width: 70px;
+}
+.navbar .navbar-brand p {
+  font-weight: 700;
+  font-size: 22px;
+}
+.navbar .navbar-toggler {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+}
+.navbar .navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  outline: none;
+  border-radius: 2px;
+  font-weight: 400;
+  position: relative;
+  padding: 13px 10px;
+  font-size: 15px;
+  line-height: 24px;
+  transition: 0.2s;
+  color: #223b54;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  transition: 0.2s;
+  color: #3d3dce;
+}
+.navbar .navbar-nav .nav-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-nav .nav-order .nav-link {
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -ms-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -moz-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  color: #fff !important;
+  background: #3d3dce;
+}
+.navbar .navbar-nav .nav-order .nav-link:hover {
+  background-color: #333333;
+}
+
+.navbar-in {
+  transition: 0.2s;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+.navbar-in .navbar-nav .nav-item .nav-link {
+  transition: 0.2s;
+  color: black;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    margin-right: 10px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 3px 200px;
+  }
+}
+@media only screen and (min-width: 1499px) {
+  .navbar {
+    padding: 3px 200px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .navbar .navbar-brand img {
+    max-width: 60px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    display: inline-block;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

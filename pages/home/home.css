@@ -1,0 +1,90 @@
+.home {
+  position: relative;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+.home form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home form .t h5 {
+  color: black;
+  line-height: 30px;
+}
+.home form input {
+  text-align: center;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  max-width: 350px;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.home form input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+.home form input:hover {
+  transition: 0.2s;
+  border-color: #3d3dce;
+}
+.home form input:focus {
+  transition: 0.2s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.home form button {
+  max-width: 200px;
+  border-radius: 3px;
+  padding: 15px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  transition: 0.2s;
+  color: white;
+  background-color: #3d3dce;
+}
+.home form button:hover {
+  transition: 0.2s;
+  color: white;
+  background-color: #3535ae;
+}
+
+@media only screen and (max-width: 1199px) {
+  .home form .t h5 {
+    font-size: 22px;
+  }
+  .home form input {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    padding: 15px 10px;
+    font-size: 16px;
+  }
+  .home form input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .home form input:hover {
+    transition: 0.2s;
+    border-color: #3d3dce;
+  }
+  .home form input:focus {
+    transition: 0.2s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  .home form button {
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

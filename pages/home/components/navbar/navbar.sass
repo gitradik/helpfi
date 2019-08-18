@@ -1,0 +1,85 @@
+@import "../../../../style/data"
+
+.navbar
+  position: fixed
+  width: 100%
+  z-index: 998
+  transition: .2s
+  background-color: transparent
+
+
+  .navbar-brand
+    padding: 0
+    display: flex
+    align-items: center
+
+    img
+      margin-right: 10px
+      height: auto
+      max-width: 70px
+
+    p
+      font-weight: 700
+      font-size: 22px
+
+  .navbar-toggler
+    outline: none
+    border-color: rgba(255,255,255,.7)
+    border-radius: 2px
+
+  .navbar-nav
+    align-items: center
+
+    .nav-item
+
+      .nav-link
+        outline: none
+        border-radius: 2px
+        font-weight: 400
+        position: relative
+        padding: 13px 10px
+        font-size: 15px
+        line-height: 24px
+        transition: .2s
+        color: $text_color
+
+        &:hover
+          transition: .2s
+          color: $text_color1
+
+    .nav-order
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+
+      .nav-link
+        padding: 10px 30px
+        border-radius: 25px
+        text-transform: uppercase
+        -webkit-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+        -ms-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+        -moz-box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+        box-shadow: 0 6px 27px rgba(0,91,234,0.3)
+        color: #fff!important
+        background: $violet
+
+        &:hover
+          background-color: $back_order_hover
+
+.navbar-in
+  transition: .2s
+  background-color: white
+  box-shadow: $box_shadow_middle
+
+  .navbar-nav
+
+    .nav-item
+
+      .nav-link
+        transition: .2s
+        color: black
+
+
+
+@import "navbar-media"

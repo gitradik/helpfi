@@ -1,0 +1,92 @@
+@import "data"
+
+@media only screen and (max-width: 1199px)
+  .t
+
+    h1
+      font-size: 50px
+
+      span
+        color: rgb(232, 76, 60)
+
+    h2
+      color: white
+      font-size: 30px
+      font-weight: 500
+
+    h3
+      font-weight: bold
+      color: #000
+      font-size: 24px
+
+    h4
+      font-size: 22px
+      font-weight: 900
+
+      span
+        font-weight: 600
+
+    h6
+      font-size: 22px
+      font-weight: 200
+      margin: 20px auto
+
+    p
+      font-size: 16px
+
+  .order
+
+    button
+      font-size: 16px
+      font-weight: 900
+
+@media only screen and (max-width: 991px)
+  .t
+
+    h3
+
+  .order
+
+    button
+      padding: 20px 40px
+
+@media only screen and (max-width: 575px)
+  .list-slider
+    max-width: 100%!important
+
+  .list-slider, .list-slider-2
+
+    .arrow-slider
+      background-color: rgba(0,0,0,.3)
+      border-radius: 100%
+      bottom: auto
+      height: 50px
+      width: 50px
+      top: 50%
+      transform: translateY(-50%)
+
+      i
+        transition: .2s
+        color: white
+
+      &:focus
+
+        i
+          transition: .2s
+          color: $color2
+
+      &:hover
+
+        i
+          transition: .2s
+          color: $color2
+
+    .prev-arrow
+      z-index: 20
+      left: 0
+
+    .next-arrow
+      right: 0
+
+    img
+      max-width: 100%

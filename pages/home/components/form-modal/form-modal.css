@@ -1,0 +1,72 @@
+.form-modal .modal-body {
+  padding-top: 0;
+}
+.form-modal .modal-dialog-centered {
+  justify-content: center;
+}
+.form-modal .modal-content {
+  border-radius: 4px;
+  max-width: 370px;
+}
+.form-modal .modal-header {
+  border-bottom: 0;
+  border-radius: 0;
+}
+.form-modal .modal-header .modal-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.form-modal form input {
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  padding: 15px 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-bottom: 15px;
+}
+.form-modal form input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+.form-modal form input:hover {
+  border-color: #3d3dce;
+}
+.form-modal form input:focus {
+  border-color: #3d3dce;
+  -webkit-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -ms-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -moz-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+}
+.form-modal form button {
+  padding: 13px 40px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -ms-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  -moz-box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  box-shadow: 0 6px 27px rgba(0, 91, 234, 0.3);
+  transition: 0.2s;
+  color: #fff;
+  background: #3d3dce;
+}
+.form-modal form button:hover {
+  transition: 0.2s;
+  background-color: #333333;
+}
+.form-modal form .t {
+  padding: 30px 0;
+}
+.form-modal form .t p {
+  color: black;
+  font-weight: 700;
+}
+.form-modal form .order {
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=form-modal.css.map */

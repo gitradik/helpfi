@@ -1,0 +1,133 @@
+@import "../../../../style/data"
+
+.sentence
+  overflow: hidden
+  position: relative
+  padding: 120px 0
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top center
+  background-color: $bg_color
+
+  img
+    height: auto
+    max-width: 100%
+
+  .t
+    margin-bottom: 50px
+    border-radius: 2px
+
+    h3
+      color: black
+
+    p
+
+  .t-desc
+    margin-bottom: 0
+    max-width: 800px
+    padding: 25px
+    border-radius: 3px
+    text-align: left
+    position: relative
+
+    p
+      position: relative
+      z-index: 2
+      padding: 0
+      margin-bottom: 10px
+      text-align: left
+
+
+
+
+
+.video-slider, .sentence-video
+  position: relative
+  margin: 0
+
+  .slick-dots
+
+    li
+
+      button
+
+        &:before
+          background-color: $yellow_light!important
+
+  .slick-slide
+    padding: 12px
+    position: relative
+    border: none
+
+    &:hover
+
+      img
+        transition: .2s
+        border: 2px solid rgba(255,255,255,1)
+        -webkit-box-shadow: 0 0 10px rgba(165,165,165,0.2)
+        -ms-box-shadow: 0 0 10px rgba(165,165,165,0.2)
+        -moz-box-shadow: 0 0 10px rgba(165,165,165,0.2)
+        box-shadow: 0 0 10px rgba(165,165,165,0.2)
+
+      .v-link
+
+        .v-play
+          transition: 2s
+          background-color: white
+
+  .v-link
+
+    .v-play
+      position: absolute
+      z-index: 20
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      height: 80px
+      width: 80px
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: .2s
+
+      i
+        font-size: 46px
+        margin-right: -4px
+        margin-bottom: -4px
+        transition: .2s
+        color: $yellow_light
+
+    &:hover
+
+      .v-play
+        background: none
+
+        i
+          transition: .2s
+          color: $yellow_hover
+
+  img
+    border-radius: 14px
+    transition: .2s
+    border: 2px solid transparent
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.2)
+
+.sentence-video
+  animation: move4 5.5s linear infinite
+
+  &:hover
+
+    .v-link
+
+      .v-play
+
+        i
+          transition: .2s
+          color: $back_order_hover
+
+
+
+.sv-2
+  animation: move5 6s linear infinite
+
+@import "sentence-media"
