@@ -186,6 +186,29 @@
     margin-top: 40px;
   }
 }
+@media only screen and (max-width: 991px) {
+  .first-scroll {
+    padding-top: 200px;
+  }
+  .first-scroll .order .order-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-scroll .order .order-buttons button {
+    margin-bottom: 15px;
+  }
+  .first-scroll .order .order-buttons button:last-child {
+    margin-bottom: 0;
+  }
+  .first-scroll .t {
+    text-align: center;
+  }
+  .first-scroll .t h2 {
+    text-align: center;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 767px) {
   .first-scroll .order {
     flex-direction: column;

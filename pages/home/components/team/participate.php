@@ -7,98 +7,80 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
-                    <h2>Наша команда</h2>
+                    <h2>Команда HelpFi</h2>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="team-slider">
-
                     <div>
                         <div class="part-card" data-aos="flip-down" data-aos-duration="1000">
-                            <div class="part-img" style="background-image: url('<?= get_template_directory_uri(); ?>/images/team/oksana.jpg')">
-
+                            <div class="thumb">
+                                <img src="<?= get_template_directory_uri(); ?>/images/team/1.jpg" alt="1">
                             </div>
-                            <img src="<?= get_template_directory_uri(); ?>/images/team/oksana.jpg">
-                            <h5>Борисовская Оксана<br> <span>Директор компании Golden Elephant</span> </h5>
-                            <hr>
-                            <p class="comm">"Нам очень нравится Болгария . Настолько, что мы переехали сюда жить. Мы очарованы гостеприимством, морем, лесами и горами.   Каждый клиент, обратившийся к нам, может рассчитывать на качество и своевременность оказываемых нами услуг."</p>
+                            <h4>Micheal Jhon</h4>
+                            <h5>CEO & Frounder</h5>
+
                             <div class="part-links">
-                                <a href="">Телефон: +359 896 746 642</a>
-                                <a href="to">Почта: triumf7812@gmail.com</a>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div>
                         <div class="part-card" data-aos="flip-down" data-aos-duration="1000">
-                            <div class="part-img" style="background-image: url('<?= get_template_directory_uri(); ?>/images/team/maks.jpg')">
-
+                            <div class="thumb">
+                                <img src="<?= get_template_directory_uri(); ?>/images/team/2.jpg" alt="2">
                             </div>
-                            <img src="<?= get_template_directory_uri(); ?>/images/team/maks.jpg">
-                            <h5>Пихур Максим<br> <span>Директор компании Golden Elephant</span></h5>
-                            <hr>
-                            <p class="comm">"Мы предлагаем только то жилье в котором сами бы хотели жить! Владею польским , русским языками!"</p>
+                            <h4>Micheal Jhon</h4>
+                            <h5>CEO & Frounder</h5>
+
                             <div class="part-links">
-                                <a href="">Телефон: +359  89 619 5844</a>
-                                <a href="to">Почта: goldelephant33@gmail.com</a>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div>
                         <div class="part-card" data-aos="flip-down" data-aos-duration="1000">
-                            <div class="part-img" style="background-image: url('<?= get_template_directory_uri(); ?>/images/team/natasha.jpg')">
-
+                            <div class="thumb">
+                                <img src="<?= get_template_directory_uri(); ?>/images/team/3.jpg" alt="3">
                             </div>
-                            <img src="<?= get_template_directory_uri(); ?>/images/team/natasha.jpg">
-                            <h5>Наталья Мельник<br><span>Персональный брокер</span></h5>
-                            <hr>
-                            <p class="comm">"Мы растим свою репутацию основанную на добросовестном и честном имени)) Мы умеем слушать, а главное слышать, что хочет наш клиент))"</p>
+                            <h4>Micheal Jhon</h4>
+                            <h5>CEO & Frounder</h5>
+
                             <div class="part-links">
-                                <a href="">Телефон: +38096 818 73 17</a>
-                                <a href="to">Почта: goldelephant1359@gmail.com</a>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div>
                         <div class="part-card" data-aos="flip-down" data-aos-duration="1000">
-                            <div class="part-img" style="background-image: url('<?= get_template_directory_uri(); ?>/images/team/yana.jpg')">
-
+                            <div class="thumb">
+                                <img src="<?= get_template_directory_uri(); ?>/images/team/4.jpg" alt="4">
                             </div>
-                            <img src="<?= get_template_directory_uri(); ?>/images/team/yana.jpg">
-                            <h5>Вирзум Яна<br><span>Персональный брокер</span></h5>
-                            <hr>
-                            <p class="comm">" Мы отлично знаем населенные пункты , инфраструктуру , природные условия , качество строительства всех застройщиков . Это не просто слова , с помощью наших специалистов каждый наш клиент находит недвижимость своей мечты ! Владею болгарским , русским, английским языками"</p>
+                            <h4>Micheal Jhon</h4>
+                            <h5>CEO & Frounder</h5>
+
                             <div class="part-links">
-                                <a href="">Телефон: +359 89 63 11 673</a>
-                                <a href="to">Почта: goldenelephant1801@gmail.com</a>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
-
-                    <div>
-                        <div class="part-card" data-aos="flip-down" data-aos-duration="1000">
-                            <div class="part-img" style="background-image: url('<?= get_template_directory_uri(); ?>/images/team/maks.jpg')">
-
-                            </div>
-                            <img src="<?= get_template_directory_uri(); ?>/images/team/maks.jpg">
-                            <h5>Иван Борисовский<br> <span>Менеджер  послепродажного обслуживания</span></h5>
-                            <hr>
-                            <p class="comm">"Наши основные направления по постпродажному обслуживанию это защита и обслуживание Вашей недвижимости/инвестиций на территории Болгарии ."</p>
-                            <div class="part-links">
-                                <a href="">Телефон: +359 89 63 11 673</a>
-                                <a href="to">Почта: goldenelephant1801@gmail.com</a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-
-
-
-
         </div>
     </div>
 </div>

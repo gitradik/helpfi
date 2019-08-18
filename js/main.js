@@ -66,8 +66,8 @@ $(".team-slider").slick({
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     adaptiveHeight: true,
     prevArrow: '<button class="arrow-slider prev-arrow"><i class="fas fa-chevron-left"></i></button>',
     nextArrow: '<button class="arrow-slider next-arrow"><i class="fas fa-chevron-right"></i></button>',
@@ -75,12 +75,19 @@ $(".team-slider").slick({
         {
             breakpoint: 991,
             settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
             }
         },
         {
-            breakpoint: 767,
+            breakpoint: 575,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,

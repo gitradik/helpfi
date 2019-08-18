@@ -187,6 +187,9 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .list .list-img {
+    min-height: 300px;
+  }
   .list .list-min-slider-2 {
     max-width: 100%;
   }
@@ -202,6 +205,14 @@
   .list .slider-nav .nav-item img {
     height: 80px;
     max-width: 120px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .list .order {
+    flex-direction: column;
+  }
+  .list .order p {
+    margin-bottom: 20px;
   }
 }
 

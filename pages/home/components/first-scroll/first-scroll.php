@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 pt-5 pb-5 mt-5 pt-lg-0 pb-lg-0 mt-lg-0 d-flex align-items-center justify-content-center">
                 <img src="<?= get_template_directory_uri(); ?>/images/fs-img.png" alt="fs-img" class="img-fluid fs-img">
             </div>
         </div>

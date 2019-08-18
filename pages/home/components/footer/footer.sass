@@ -1,16 +1,16 @@
 @import "../../../../style/data"
 
 footer
-  padding: 30px 0
+  padding: 120px 0
   overflow: hidden
-  background-color: $yellow_light
+  background-color: $bg_color
 
   .t
-    margin-top: 50px
 
-    p
-      color: white
-      font-weight: 900
+    h2
+      color: black!important
+
+
 
   img
     height: auto
@@ -18,18 +18,6 @@ footer
     margin-bottom: 50px
 
   form
-
-    .t
-
-      h5
-        color: $color2!important
-
-    button
-      color: black!important
-      background-color: $color2!important
-
-      &:hover
-        background-color: #c8b96b !important
 
   .foot-item
 
@@ -69,6 +57,100 @@ footer
 
         i
           font-size: 28px
+          
+  .contact-info
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+    height: 100%
+    float: left
+    height: auto
+    border-radius: 5px
+    padding: 30px 15px
+    margin: 0 0 90px
+    -webkit-transition: all 0.3s ease-in-out
+    -ms-transition: all 0.3s ease-in-out
+    -moz-transition: all 0.3s ease-in-out
+    transition: all 0.3s ease-in-out
+    border: 1px solid #dcdcdc
+
+    &:hover
+      -webkit-transition: all 0.3s ease-in-out
+      -ms-transition: all 0.3s ease-in-out
+      -moz-transition: all 0.3s ease-in-out
+      transition: all 0.3s ease-in-out
+      border-color: $violet
+
+    i
+      font-size: 30px
+      color: $violet
+      margin: 0 0 20px
+
+    h3
+      font-size: 20px
+      font-weight: 600
+      text-transform: capitalize
+      margin: 0 0 15px
+      color: $text_color2
+
+    p
+      display: flex
+      flex-direction: column
+      align-items: center
+      font-size: 15px
+      line-height: 28px
+      color: #999
+      text-align: center
+
+      a
+        font-size: 15px
+        line-height: 28px
+        outline: none
+        text-decoration: none
+        -webkit-transition: all 0.3s ease-in-out
+        -ms-transition: all 0.3s ease-in-out
+        -moz-transition: all 0.3s ease-in-out
+        transition: all 0.3s ease-in-out
+        color: #999
+
+        &:hover
+          -webkit-transition: all 0.3s ease-in-out
+          -ms-transition: all 0.3s ease-in-out
+          -moz-transition: all 0.3s ease-in-out
+          transition: all 0.3s ease-in-out
+          color: $violet
+
+.footer-contacts-social
+  background-color: black
+  width: 100%
+  padding: 100px 0
+
+  .social-links
+    padding: 0 20px
+    display: flex
+    align-items: center
+    justify-content: center
+
+    a
+      margin-right: 15px
+      font-size: 26px
+      line-height: 26px
+      color: #aaa
+
+      &:last-child
+        margin-right: 0
+
+  .copyright
+    display: flex
+    justify-content: center
+    width: 100%
+    padding: 0 20px
+
+    p
+      margin: 0
+      color: #fff
+      opacity: 0.7
 
 
 

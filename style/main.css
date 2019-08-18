@@ -263,47 +263,15 @@ body {
     transform: translateY(0);
   }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 991px) {
   .t h1 {
-    font-size: 50px;
-  }
-  .t h1 span {
-    color: #e84c3c;
+    font-size: 35px;
   }
   .t h2 {
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 22px;
   }
   .t h3 {
-    font-weight: bold;
-    color: #000;
-    font-size: 24px;
-  }
-  .t h4 {
-    font-size: 22px;
-    font-weight: 900;
-  }
-  .t h4 span {
-    font-weight: 600;
-  }
-  .t h6 {
-    font-size: 22px;
-    font-weight: 200;
-    margin: 20px auto;
-  }
-  .t p {
-    font-size: 16px;
-  }
-
-  .order button {
-    font-size: 16px;
-    font-weight: 900;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .order button {
-    padding: 20px 40px;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 575px) {

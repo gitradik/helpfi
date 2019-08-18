@@ -10,6 +10,9 @@
   text-align: center;
   margin-bottom: 60px;
 }
+.open-form-2 .t h2 {
+  color: black;
+}
 .open-form-2 .t p {
   display: flex;
   align-items: center;
@@ -107,6 +110,14 @@
   .open-form form .t h5 {
     max-width: 500px;
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .open-form-2 form .of-or-btns {
+    flex-direction: column;
+  }
+  .open-form-2 form .of-or-btns input {
+    margin-bottom: 10px;
   }
 }
 
