@@ -40,6 +40,25 @@
         //min-height: 210px
         //min-width: 260px
 
+    .roadmap
+
+      .roadmap-item
+
+        .roadmap-text
+          max-width: 319px
+
+      .rmitb
+        margin-top: -71px
+
+      .rmitb2
+        margin-top: -67px
+
+      .rmitb3
+        margin-top: -35px
+
+      .rmitb4
+        margin-top: -31px
+
 @media only screen and (max-width: 991px)
   .part-offer
 
@@ -56,6 +75,51 @@
   .part-offer-3
 
     .t
+
+  .work
+    padding-bottom: 60px
+
+    .roadmap
+
+      .roadmap-item
+        margin-top: 0!important
+        flex-direction: column
+
+        .roadmap-icon, .roadmap-icon-left
+          margin-top: -30px
+          margin-bottom: 20px
+          position: relative
+          transform: rotate(135deg)
+
+        .roadmap-icon
+
+          span
+            transform: rotate(-135deg)
+
+        .roadmap-icon-left
+          transform: rotate(-45deg)
+
+          span
+            transform: rotate(45deg)
+
+        .roadmap-text
+          margin-top: 0
+          max-width: 100%
+          width: 100%
+
+          &:after
+            display: none
+
+          &:before
+            content: ""
+            height: 50px
+            width: 15px
+            background: $violet
+            position: absolute
+            top: -45px
+            left: 50%
+            z-index: -1
+            transform: translateX(-50%)
 
 @media only screen and (max-width: 767px)
   .work

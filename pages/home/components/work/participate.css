@@ -224,6 +224,21 @@
   .work .part-card h4 {
     font-size: 18px;
   }
+  .work .roadmap .roadmap-item .roadmap-text {
+    max-width: 319px;
+  }
+  .work .roadmap .rmitb {
+    margin-top: -71px;
+  }
+  .work .roadmap .rmitb2 {
+    margin-top: -67px;
+  }
+  .work .roadmap .rmitb3 {
+    margin-top: -35px;
+  }
+  .work .roadmap .rmitb4 {
+    margin-top: -31px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .part-offer .t {
@@ -235,6 +250,48 @@
   .part-offer .t h3 span {
     font-size: 24px;
     font-weight: 900;
+  }
+
+  .work {
+    padding-bottom: 60px;
+  }
+  .work .roadmap .roadmap-item {
+    margin-top: 0 !important;
+    flex-direction: column;
+  }
+  .work .roadmap .roadmap-item .roadmap-icon, .work .roadmap .roadmap-item .roadmap-icon-left {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    position: relative;
+    transform: rotate(135deg);
+  }
+  .work .roadmap .roadmap-item .roadmap-icon span {
+    transform: rotate(-135deg);
+  }
+  .work .roadmap .roadmap-item .roadmap-icon-left {
+    transform: rotate(-45deg);
+  }
+  .work .roadmap .roadmap-item .roadmap-icon-left span {
+    transform: rotate(45deg);
+  }
+  .work .roadmap .roadmap-item .roadmap-text {
+    margin-top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .work .roadmap .roadmap-item .roadmap-text:after {
+    display: none;
+  }
+  .work .roadmap .roadmap-item .roadmap-text:before {
+    content: "";
+    height: 50px;
+    width: 15px;
+    background: #3d3dce;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
   }
 }
 @media only screen and (max-width: 575px) {

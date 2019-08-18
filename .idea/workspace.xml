@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate-media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/sub-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/sub-style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +118,7 @@
       <workItem from="1566037732263" duration="26000" />
       <workItem from="1566113676969" duration="3884000" />
       <workItem from="1566122892857" duration="5520000" />
-      <workItem from="1566130340902" duration="7257000" />
+      <workItem from="1566130340902" duration="9283000" />
     </task>
     <servers />
   </component>
