@@ -1,7 +1,7 @@
 .list {
   overflow: hidden;
   padding: 60px 0;
-  background-color: #f7f7f7;
+  background-color: #F8FAFF;
 }
 .list .order {
   margin-bottom: 10px;
@@ -17,72 +17,43 @@
 }
 .list .t p {
   text-align: center;
-  padding: 15px;
-  color: black;
-  font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
 }
-.list .list-slider .slick-arrow {
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-.list .list-slider .slick-arrow i {
-  color: #e7d885;
-}
-.list .list-slider .slick-arrow:hover i {
-  color: white;
-}
-.list .list-slider .prev-arrow {
-  left: 0;
-}
-.list .list-slider .next-arrow {
-  right: 0;
-}
-.list .list-slider .slick-slide {
-  margin: 0;
-}
-.list .list-slider .slick-slide a {
-  display: block;
-  cursor: pointer;
-}
-.list .list-slider .slick-dots {
-  bottom: -15px;
-}
-.list .list-item {
+.list .list-list .list-item {
   text-align: left;
 }
-.list .list-item .list-item-body {
+.list .list-list .list-item .list-item-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
 }
-.list .list-item .list-item-body .list-item-desc {
+.list .list-list .list-item .list-item-body .list-item-desc {
   border: 2px solid white;
   border-radius: 3px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   margin-left: 10px;
 }
-.list .list-item .list-item-body .list-slider {
+.list .list-list .list-item .list-item-body .list-slider {
   max-width: 550px;
   width: 100%;
 }
-.list .list-item .list-item-body img {
+.list .list-list .list-item .list-item-body img {
   max-height: 366px;
   height: auto;
   max-width: 550px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.list .list-item .list-item-body p {
+.list .list-list .list-item .list-item-body p {
   font-size: 18px;
   line-height: 25px;
 }
-.list .list-item .list-item-body p span {
+.list .list-list .list-item .list-item-body p span {
   font-weight: 700;
   font-size: 22px;
 }
-.list .list-item h4 {
+.list .list-list .list-item h4 {
   font-size: 20px;
   font-weight: 900;
   border: 3px solid #56c2f5;
@@ -90,7 +61,7 @@
   padding: 15px;
   color: black;
 }
-.list .list-item p {
+.list .list-list .list-item p {
   text-align: left;
   padding: 15px;
   color: black;

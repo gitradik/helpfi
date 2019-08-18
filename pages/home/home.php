@@ -25,10 +25,10 @@
         require_once get_template_directory() . '/pages/home/components/first-scroll/first-scroll.php';
         require_once get_template_directory() . '/pages/home/components/sentence/sentence.php';
         require_once get_template_directory() . '/pages/home/components/participate/participate.php';
+        require_once get_template_directory() . '/pages/home/components/list/list.php';
 
        require_once get_template_directory() . '/pages/home/components/open-form/open-form.php';
        require_once get_template_directory() . '/pages/home/components/companies/companies.php';
-       require_once get_template_directory() . '/pages/home/components/list/list.php';
        require_once get_template_directory() . '/pages/home/components/open-form-2/open-form.php';
        require_once get_template_directory() . '/pages/home/components/team/participate.php';
        require_once get_template_directory() . '/pages/home/components/work/participate.php';

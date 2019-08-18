@@ -3,7 +3,7 @@
 .list
   overflow: hidden
   padding: 60px 0
-  background-color: #f7f7f7
+  background-color: $bg_color
 
   .order
     margin-bottom: 10px
@@ -21,91 +21,60 @@
 
     p
       text-align: center
-      padding: 15px
-      color: black
-      font-weight: 300
-      font-size: 24px
+      font-size: 18px
 
-  .list-slider
+  .list-list
 
-    .slick-arrow
-      bottom: 0
-      background-color: rgba(0,0,0,.3)
+    .list-item
+      text-align: left
 
-      i
-        color: $color2
+      .list-item-body
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 20px 0
 
-      &:hover
+        .list-item-desc
+          border: 2px solid white
+          border-radius: 3px
+          box-shadow: 0 0 10px 0 rgba(0,0,0,.15)
+          margin-left: 10px
 
-        i
-          color: white
+        .list-slider
+          max-width: 550px
+          width: 100%
 
-    .prev-arrow
-      left: 0
+        img
+          max-height: 366px
+          height: auto
+          max-width: 550px
+          box-shadow: $box_shadow_hard
+          border-radius: 4px
 
-    .next-arrow
-      right: 0
+        p
+          font-size: 18px
+          line-height: 25px
 
-    .slick-slide
-      margin: 0
+          span
+            font-weight: 700
+            font-size: 22px
 
-      a
-        display: block
-        cursor: pointer
 
-    .slick-dots
-      bottom: -15px
-
-  .list-item
-    text-align: left
-
-    .list-item-body
-      display: flex
-      justify-content: space-between
-      align-items: center
-      margin: 20px 0
-
-      .list-item-desc
-        border: 2px solid white
-        border-radius: 3px
-        box-shadow: 0 0 10px 0 rgba(0,0,0,.15)
-        margin-left: 10px
-
-      .list-slider
-        max-width: 550px
-        width: 100%
-
-      img
-        max-height: 366px
-        height: auto
-        max-width: 550px
-        box-shadow: $box_shadow_hard
+      h4
+        font-size: 20px
+        font-weight: 900
+        border: 3px solid $color3
         border-radius: 4px
+        padding: 15px
+        color: black
 
       p
-        font-size: 18px
-        line-height: 25px
-
-        span
-          font-weight: 700
-          font-size: 22px
-
-
-    h4
-      font-size: 20px
-      font-weight: 900
-      border: 3px solid $color3
-      border-radius: 4px
-      padding: 15px
-      color: black
-
-    p
-      text-align: left
-      padding: 15px
-      color: black
-      font-weight: 500
-      line-height: 30px
-      font-size: 20px
+        text-align: left
+        padding: 15px
+        color: black
+        font-weight: 500
+        line-height: 30px
+        font-size: 20px
 
 
   .list-questions
